@@ -6,7 +6,7 @@ package com.codingfist.burninghouseuser.globalcommon.globalcommon.filter;
 public class TokenFilter extends GenericFilterBean {
 //
 
-
+//
 
     private final TokenProvider tokenProvider;
 
@@ -17,7 +17,7 @@ public class TokenFilter extends GenericFilterBean {
 
 
 //
-
+zz
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 
