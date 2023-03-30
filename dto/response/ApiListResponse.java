@@ -1,6 +1,12 @@
-package com.codingfist.burninghouseuser.globalcommon.globalcommon.dto.response;
+package com.codingfist.burninghouseauth.globalCommon.dto.response;
 
 
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)

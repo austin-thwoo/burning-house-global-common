@@ -1,7 +1,8 @@
-package com.codingfist.burninghouseuser.globalcommon.globalcommon.dto.response;
+package com.codingfist.burninghouseauth.globalCommon.dto.response;
 
 
-import com.codingfist.burninghouseuser.globalcommon.globalcommon.error.model.ErrorCode;
+import com.codingfist.burninghouseauth.globalCommon.error.model.ErrorCode;
+
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -38,6 +39,8 @@ public class ErrorResponse {
         this.code = code.getCode();
         this.errors = new ArrayList<>();
     }
+
+
 
 
     public static ErrorResponse of(final ErrorCode code, final BindingResult bindingResult) {
