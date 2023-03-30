@@ -1,4 +1,4 @@
-package com.codingfist.burninghouseuser.globalcommon.globalcommon.error.model;
+package com.codingfist.burninghouseauth.globalCommon.error.model;
 
 public enum ErrorCode {
 

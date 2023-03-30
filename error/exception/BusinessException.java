@@ -1,6 +1,7 @@
-package com.codingfist.burninghouseuser.globalcommon.globalcommon.error.exception;
+package com.codingfist.burninghouseauth.globalCommon.error.exception;
 
-import com.codingfist.burninghouseuser.globalcommon.globalcommon.error.model.ErrorCode;
+import com.codingfist.burninghouseauth.globalCommon.error.model.ErrorCode;
+
 
 
 
@@ -38,6 +39,8 @@ public class BusinessException extends RuntimeException {
         super(errorCode.getMessage());
         this.errorCode = errorCode;
     }
+
+
 
     public ErrorCode getErrorCode() {
 
