@@ -1,1 +1,1 @@
-# burning-house-global-common
+# globalCommon
