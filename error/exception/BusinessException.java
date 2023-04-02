@@ -1,6 +1,6 @@
-package com.codingfist.burninghouseauth.globalCommon.error.exception;
+package globalCommon.error.exception;
 
-import com.codingfist.burninghouseauth.globalCommon.error.model.ErrorCode;
+import globalCommon.error.model.ErrorCode;
 
 
 

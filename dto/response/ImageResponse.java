@@ -1,5 +1,4 @@
-package com.codingfist.burninghouseauth.globalCommon.dto.response;
-
+package globalCommon.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,5 +1,4 @@
-package com.codingfist.burninghouseauth.globalCommon.domain;
-
+package globalCommon.domain;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;

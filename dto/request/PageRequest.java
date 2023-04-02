@@ -1,11 +1,10 @@
-package com.codingfist.burninghouseuser.globalcommon.globalcommon.dto.request;
+package globalCommon.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-
 public final class PageRequest {
 
     private int page;

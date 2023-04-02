@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-package com.codingfist.burninghouseuser.golobalCommon.error.exception;
+package globalCommon.error.exception;
 
-import com.codingfist.burninghouseuser.globalcommon.globalcommon.error.exception.BusinessException;
-import com.codingfist.burninghouseuser.globalcommon.globalcommon.error.exception.GlobalExceptionHandler;
-import com.codingfist.burninghouseuser.globalcommon.globalcommon.error.model.ErrorCode;
-=======
-package com.codingfist.burninghouseauth.globalCommon.error.exception;
+import globalCommon.error.exception.BusinessException;
+import globalCommon.error.exception.GlobalExceptionHandler;
+import globalCommon.error.model.ErrorCode;
 
-import com.codingfist.burninghouseauth.globalCommon.error.model.ErrorCode;
->>>>>>> origin/master
+import globalCommon.error.model.ErrorCode;
 
 public class EntityNotFoundException extends BusinessException {
 

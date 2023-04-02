@@ -1,4 +1,4 @@
-package com.codingfist.burninghouseauth.globalCommon.dto.response;
+package globalCommon.dto.response;
 
 
 import lombok.AccessLevel;

@@ -1,9 +1,9 @@
-package com.codingfist.burninghouseauth.globalCommon.error.exception;
+package globalCommon.error.exception;
 
+import globalCommon.dto.response.ErrorResponse;
 
-import com.codingfist.burninghouseauth.globalCommon.dto.response.ErrorResponse;
+import globalCommon.error.model.ErrorCode;
 
-import com.codingfist.burninghouseauth.globalCommon.error.model.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

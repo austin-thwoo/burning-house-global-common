@@ -1,9 +1,6 @@
-package com.codingfist.burninghouseauth.globalCommon.dto.response;
+package globalCommon.dto.response;
 
-
-import com.codingfist.burninghouseauth.globalCommon.error.model.ErrorCode;
-
-
+import globalCommon.error.model.ErrorCode;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
