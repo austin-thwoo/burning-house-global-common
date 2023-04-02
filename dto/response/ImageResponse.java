@@ -15,13 +15,10 @@ public class ImageResponse {
     private String path;
 
 
-    public ImageResponse(ProReferencefile filee){
-
+//    public ImageResponse(ProReferencefile filee){
 //        this.id = careImage.getId();
-//
 //        this.path = careImage.getPath();
-
-    }
+//    }
 
 
 }
