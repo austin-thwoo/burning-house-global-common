@@ -1,14 +1,14 @@
 package globalCommon.error.exception;
 
 import globalCommon.error.model.ErrorCode;
-
-
+import org.springframework.http.HttpStatus;
 
 
 public class BusinessException extends RuntimeException {
 
 
     private ErrorCode errorCode;
+    private HttpStatus httpStatus;
 
     public BusinessException() {
 
@@ -22,6 +22,12 @@ public class BusinessException extends RuntimeException {
         super(message);
         this.errorCode = errorCode;
 
+    }
+    public BusinessException(String message, ErrorCode errorCode, HttpStatus httpStatus) {
+
+        super(message);
+        this.errorCode = errorCode;
+        this.httpStatus = httpStatus;
     }
 
 
@@ -39,6 +45,7 @@ public class BusinessException extends RuntimeException {
         super(errorCode.getMessage());
         this.errorCode = errorCode;
     }
+
 
 
 
